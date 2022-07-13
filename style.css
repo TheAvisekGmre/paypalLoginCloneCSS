@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  /* background-color: rgb(233, 233, 233); */
+}
+
+.main {
+}
+
+.main .container {
+  padding: 4rem;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .container .logo {
+  padding: 1rem;
+}
+
+.main .container .logo img {
+  width: 70px;
+}
+
+#email,
+#password {
+  outline: none;
+  border: 1px solid rgb(97, 97, 97);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0.4rem auto;
+}
+
+#email:focus,
+#password:focus {
+  background-color: rgb(226, 226, 226);
+}
+
+#login {
+  margin: 2rem auto 0.5rem auto;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #009cde;
+  border: unset;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.main .container form p {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.main .container form p a {
+  text-decoration: none;
+}
+
+.main .container form hr {
+  color: rgb(107, 105, 105);
+}
+
+#signup {
+  margin: 2rem auto 0.5rem auto;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #000;
+  background-color: #dddddd;
+  border: unset;
+  border-radius: 5px;
+  font-weight: 500;
+}
